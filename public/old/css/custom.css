@@ -1,0 +1,47 @@
+/* start section homepage */
+.about-banner {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    width: 80%;
+}
+
+/* start section recipes */
+.banner-recipe {
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 70vh;
+}
+
+.filter-recipe {
+    background-color: #fff;
+    z-index: 5;
+    width: 200px;
+    position: absolute;
+    border: 1px solid #000;
+}
+
+/* end section recipes */
+/* start section contact Page */
+.contact-banner {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    background-color: #99332F;
+    min-height: 26.84375vw;
+    z-index: 2;
+}
+
+.item-icon .email a {
+    color: #000;
+}
+
+.item-icon .email a:hover {
+    color: #E74436;
+}
+
+/* end section contact Page */

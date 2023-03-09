@@ -1,0 +1,44 @@
+/* start section hedaer */
+.img-logo {
+    width: 25rem;
+}
+
+/* end section hedaer */
+
+
+/* start section footer */
+.logo-footer {
+    width: 15rem;
+}
+
+/* end section footer */
+
+/* start about page */
+.list-abido .item-icon {
+    position: relative;
+    padding: 0px 0px 40px 80px;
+    margin-bottom: 40px;
+    /* border-bottom: 2px solid #E4E7EC; */
+}
+
+.list-abido .item-icon-email {
+    position: relative;
+    padding: 0px 0px 70px 80px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #E4E7EC;
+}
+
+.list-abido .item-icon.none-bd {
+    border-bottom: 0px;
+    padding: 0px 0px 20px 80px;
+    margin-bottom: 20px;
+}
+
+.list-abido .item-icon .icon-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 64px;
+}
+
+/* end about page */

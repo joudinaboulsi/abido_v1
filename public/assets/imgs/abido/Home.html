@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:8000/checkout -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://localhost:8000/assets/images/favicon.ico">
+    <link href="./Home_files/css" rel="stylesheet">
+    <link href="./Home_files/css(1)" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Home_files/animate.css">
+    <link rel="stylesheet" type="text/css" href="./Home_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./Home_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Home_files/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="./Home_files/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="./Home_files/style.css">
+    <link rel="stylesheet" type="text/css" href="./Home_files/color-01.css">
+    <!-- Livewire Styles -->
+<style>
+    [wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {
+        display: none;
+    }
+
+    [wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {
+        display:none;
+    }
+
+    [wire\:offline] {
+        display: none;
+    }
+
+    [wire\:dirty]:not(textarea):not(input):not(select) {
+        display: none;
+    }
+
+    input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {
+        animation-duration: 50000s;
+        animation-name: livewireautofill;
+    }
+
+    @keyframes livewireautofill { from {} }
+</style>
+</head>
+
+<body class="home-page home-01 " cz-shortcut-listen="true">
+
+    <!-- mobile menu -->
+    <div class="mercado-clone-wrap">
+        <div class="mercado-panels-actions-wrap">
+            <a class="mercado-close-btn mercado-close-panels" href="http://localhost:8000/checkout#">x</a>
+        </div>
+        <div class="mercado-panels"><div id="mercado-main-panel" class="mercado-panel mercado-main-panel"><ul class="depth-01"><li class="menu-item"><a data-target="#mercado-panel-mercado_haead_menu" class="mercado-next-panel" href="http://localhost:8000/checkout#mercado-panel-mercado_haead_menu"></a><a title="Sale Info" class="mercado-item-title" href="http://localhost:8000/checkout#">Sale Info</a></li><li class="menu-item"><a data-target="#mercado-panel-mercado_main" class="mercado-next-panel" href="http://localhost:8000/checkout#mercado-panel-mercado_main"></a><a title="Main menu" class="mercado-item-title" href="http://localhost:8000/checkout#">Main menu</a></li></ul></div><div id="mercado-panel-mercado_haead_menu" class="mercado-panel mercado-hidden"><ul class="depth-01">
+                                <li class="menu-item clone-menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Weekly Featured</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item clone-menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Hot Sale items</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item clone-menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Top new items</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item clone-menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Top Selling</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item clone-menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Top rated items</a><span class="nav-label hot-label">hot</span></li>
+                            </ul></div><div id="mercado-panel-mercado_main" class="mercado-panel mercado-hidden"><ul class="depth-01">
+                                <li class="menu-item home-icon clone-menu-item">
+                                    <a href="http://localhost:8000/index.html" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="menu-item clone-menu-item">
+                                    <a href="http://localhost:8000/about-us.html" class="link-term mercado-item-title">About Us</a>
+                                </li>
+                                <li class="menu-item clone-menu-item">
+                                    <a href="http://localhost:8000/shop.html" class="link-term mercado-item-title">Shop</a>
+                                </li>
+                                <li class="menu-item clone-menu-item">
+                                    <a href="http://localhost:8000/cart.html" class="link-term mercado-item-title">Cart</a>
+                                </li>
+                                <li class="menu-item clone-menu-item">
+                                    <a href="http://localhost:8000/checkout.html" class="link-term mercado-item-title">Checkout</a>
+                                </li>
+                                <li class="menu-item clone-menu-item">
+                                    <a href="http://localhost:8000/contact-us.html" class="link-term mercado-item-title">Contact Us</a>
+                                </li>
+                            </ul></div></div>
+    </div>
+
+    <!--header-->
+    <header id="header" class="header header-style-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="topbar-menu-area">
+                    <div class="container">
+                        <div class="topbar-menu left-menu">
+                            <ul>
+                                <li class="menu-item">
+                                    <a title="Hotline: (+123) 456 789" href="http://localhost:8000/checkout#"><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topbar-menu right-menu">
+                            <ul>
+                                <li class="menu-item"><a title="Register or Login" href="http://localhost:8000/login.html">Login</a></li>
+                                <li class="menu-item"><a title="Register or Login" href="http://localhost:8000/register.html">Register</a>
+                                </li>
+                                <li class="menu-item lang-menu menu-item-has-children parent">
+                                    <a title="English" href="http://localhost:8000/checkout#"><span class="img label-before"><img src="./Home_files/lang-en.png" alt="lang-en"></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="submenu lang">
+                                        <li class="menu-item"><a title="hungary" href="http://localhost:8000/checkout#"><span class="img label-before"><img src="./Home_files/lang-hun.png" alt="lang-hun"></span>Hungary</a></li>
+                                        <li class="menu-item"><a title="german" href="http://localhost:8000/checkout#"><span class="img label-before"><img src="./Home_files/lang-ger.png" alt="lang-ger"></span>German</a></li>
+                                        <li class="menu-item"><a title="french" href="http://localhost:8000/checkout#"><span class="img label-before"><img src="./Home_files/lang-fra.png" alt="lang-fre"></span>French</a></li>
+                                        <li class="menu-item"><a title="canada" href="http://localhost:8000/checkout#"><span class="img label-before"><img src="./Home_files/lang-can.png" alt="lang-can"></span>Canada</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-has-children parent">
+                                    <a title="Dollar (USD)" href="http://localhost:8000/checkout#">Dollar (USD)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="submenu curency">
+                                        <li class="menu-item">
+                                            <a title="Pound (GBP)" href="http://localhost:8000/checkout#">Pound (GBP)</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a title="Euro (EUR)" href="http://localhost:8000/checkout#">Euro (EUR)</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a title="Dollar (USD)" href="http://localhost:8000/checkout#">Dollar (USD)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="mid-section main-info-area">
+
+                        <div class="wrap-logo-top left-section">
+                            <a href="http://localhost:8000/index.html" class="link-to-home"><img src="./Home_files/logo-top-1.png" alt="mercado"></a>
+                        </div>
+
+                        <div class="wrap-search center-section">
+                            <div class="wrap-search-form">
+                                <form action="http://localhost:8000/checkout#" id="form-search-top" name="form-search-top">
+                                    <input type="text" name="search" value="" placeholder="Search here...">
+                                    <button form="form-search-top" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <div class="wrap-list-cate">
+                                        <input type="hidden" name="product-cate" value="0" id="product-cate">
+                                        <a href="http://localhost:8000/checkout#" class="link-control">All Category</a>
+                                        <ul class="list-cate">
+                                            <li class="level-0">All Category</li>
+                                            <li class="level-1">-Electronics</li>
+                                            <li class="level-2">Batteries &amp; Chargens</li>
+                                            <li class="level-2">Headphone &amp; Headsets</li>
+                                            <li class="level-2">Mp3 Player &amp; Acessories</li>
+                                            <li class="level-1">-Smartphone &amp; Table</li>
+                                            <li class="level-2">Batteries &amp; Chargens</li>
+                                            <li class="level-2">Mp3 Player &amp; Headphones</li>
+                                            <li class="level-2">Table &amp; Accessories</li>
+                                            <li class="level-1">-Electronics</li>
+                                            <li class="level-2">Batteries &amp; Chargens</li>
+                                            <li class="level-2">Headphone &amp; Headsets</li>
+                                            <li class="level-2">Mp3 Player &amp; Acessories</li>
+                                            <li class="level-1">-Smartphone &amp; Table</li>
+                                            <li class="level-2">Batteries &amp; Chargens</li>
+                                            <li class="level-2">Mp3 Player &amp; Headphones</li>
+                                            <li class="level-2">Table &amp; Accessories</li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="wrap-icon right-section">
+                            <div class="wrap-icon-section wishlist">
+                                <a href="http://localhost:8000/checkout#" class="link-direction">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                    <div class="left-info">
+                                        <span class="index">0 item</span>
+                                        <span class="title">Wishlist</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="wrap-icon-section minicart">
+                                <a href="http://localhost:8000/checkout#" class="link-direction">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                    <div class="left-info">
+                                        <span class="index">4 items</span>
+                                        <span class="title">CART</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="wrap-icon-section show-up-after-1024">
+                                <a href="http://localhost:8000/checkout#" class="mobile-navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 41px;"><div class="nav-section header-sticky" style="width: 1492px; position: fixed; top: 0px; z-index: inherit;">
+                    <div class="header-nav-section">
+                        <div class="container">
+                            <ul class="nav menu-nav clone-main-menu" id="mercado_haead_menu" data-menuname="Sale Info">
+                                <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Weekly Featured</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Hot Sale items</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Top new items</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Top Selling</a><span class="nav-label hot-label">hot</span></li>
+                                <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Top rated items</a><span class="nav-label hot-label">hot</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="primary-nav-section">
+                        <div class="container">
+                            <ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu">
+                                <li class="menu-item home-icon">
+                                    <a href="http://localhost:8000/index.html" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://localhost:8000/about-us.html" class="link-term mercado-item-title">About Us</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://localhost:8000/shop.html" class="link-term mercado-item-title">Shop</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://localhost:8000/cart.html" class="link-term mercado-item-title">Cart</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://localhost:8000/checkout.html" class="link-term mercado-item-title">Checkout</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://localhost:8000/contact-us.html" class="link-term mercado-item-title">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--main area-->
+ <main wire:id="cjiZlqdTSmwZlqvGiJ8W" id="main" class="main-site">
+
+ <div class="container">
+
+ <div class="wrap-breadcrumb">
+ <ul>
+ <li class="item-link"><a href="http://localhost:8000/checkout#" class="link">home</a></li>
+ <li class="item-link"><span>login</span></li>
+ </ul>
+ </div>
+ <div class=" main-content-area">
+ <div class="wrap-address-billing">
+ <h3 class="box-title">Billing Address</h3>
+ <form action="http://localhost:8000/checkout#" method="get" name="frm-billing">
+ <p class="row-in-form">
+ <label for="fname">first name<span>*</span></label>
+ <input id="fname" type="text" name="fname" value="" placeholder="Your name">
+ </p>
+ <p class="row-in-form">
+ <label for="lname">last name<span>*</span></label>
+ <input id="lname" type="text" name="lname" value="" placeholder="Your last name">
+ </p>
+ <p class="row-in-form">
+ <label for="email">Email Addreess:</label>
+ <input id="email" type="email" name="email" value="" placeholder="Type your email">
+ </p>
+ <p class="row-in-form">
+ <label for="phone">Phone number<span>*</span></label>
+ <input id="phone" type="number" name="phone" value="" placeholder="10 digits format">
+ </p>
+ <p class="row-in-form">
+ <label for="add">Address:</label>
+ <input id="add" type="text" name="add" value="" placeholder="Street at apartment number">
+ </p>
+ <p class="row-in-form">
+ <label for="country">Country<span>*</span></label>
+ <input id="country" type="text" name="country" value="" placeholder="United States">
+ </p>
+ <p class="row-in-form">
+ <label for="zip-code">Postcode / ZIP:</label>
+ <input id="zip-code" type="number" name="zip-code" value="" placeholder="Your postal code">
+ </p>
+ <p class="row-in-form">
+ <label for="city">Town / City<span>*</span></label>
+ <input id="city" type="text" name="city" value="" placeholder="City name">
+ </p>
+ <p class="row-in-form fill-wife">
+ <label class="checkbox-field">
+ <input name="create-account" id="create-account" value="forever" type="checkbox">
+ <span>Create an account?</span>
+ </label>
+ <label class="checkbox-field">
+ <input name="different-add" id="different-add" value="forever" type="checkbox">
+ <span>Ship to a different address?</span>
+ </label>
+ </p>
+ </form>
+ </div>
+ <div class="summary summary-checkout">
+ <div class="summary-item payment-method">
+ <h4 class="title-box">Payment Method</h4>
+ <p class="summary-info"><span class="title">Check / Money order</span></p>
+ <p class="summary-info"><span class="title">Credit Cart (saved)</span></p>
+ <div class="choose-payment-methods">
+ <label class="payment-method">
+ <input name="payment-method" id="payment-method-bank" value="bank" type="radio">
+ <span>Direct Bank Transder</span>
+ <span class="payment-desc">But the majority have suffered alteration in some form, by
+ injected humour, or randomised words which don't look even slightly believable</span>
+ </label>
+ <label class="payment-method">
+ <input name="payment-method" id="payment-method-visa" value="visa" type="radio">
+ <span>visa</span>
+ <span class="payment-desc">There are many variations of passages of Lorem Ipsum
+ available</span>
+ </label>
+ <label class="payment-method">
+ <input name="payment-method" id="payment-method-paypal" value="paypal" type="radio">
+ <span>Paypal</span>
+ <span class="payment-desc">You can pay with your credit</span>
+ <span class="payment-desc">card if you don't have a paypal account</span>
+ </label>
+ </div>
+ <p class="summary-info grand-total"><span>Grand Total</span> <span class="grand-total-price">$100.00</span></p>
+ <a href="http://localhost:8000/thankyou.html" class="btn btn-medium">Place order now</a>
+ </div>
+ <div class="summary-item shipping-method">
+ <h4 class="title-box f-title">Shipping method</h4>
+ <p class="summary-info"><span class="title">Flat Rate</span></p>
+ <p class="summary-info"><span class="title">Fixed $50.00</span></p>
+ <h4 class="title-box">Discount Codes</h4>
+ <p class="row-in-form">
+ <label for="coupon-code">Enter Your Coupon code:</label>
+ <input id="coupon-code" type="text" name="coupon-code" value="" placeholder="">
+ </p>
+ <a href="http://localhost:8000/checkout#" class="btn btn-small">Apply</a>
+ </div>
+ </div>
+
+ <div class="wrap-show-advance-info-box style-1 box-in-site">
+ <h3 class="title-box">Most Viewed Products</h3>
+ <div class="wrap-products">
+ <div class="products slide-carousel owl-carousel style-nav-1 equal-container owl-loaded owl-drag" data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive="{&quot;0&quot;:{&quot;items&quot;:&quot;1&quot;},&quot;480&quot;:{&quot;items&quot;:&quot;2&quot;},&quot;768&quot;:{&quot;items&quot;:&quot;3&quot;},&quot;992&quot;:{&quot;items&quot;:&quot;3&quot;},&quot;1200&quot;:{&quot;items&quot;:&quot;5&quot;}}">
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1869px;"><div class="owl-item active" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_04.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item new-label">new</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><span class="product-price">$250.00</span></div>
+ </div>
+ </div></div><div class="owl-item active" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_17.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item sale-label">sale</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><ins>
+ <p class="product-price">$168.00</p>
+ </ins> <del>
+ <p class="product-price">$250.00</p>
+ </del></div>
+ </div>
+ </div></div><div class="owl-item active" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_15.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item new-label">new</span>
+ <span class="flash-item sale-label">sale</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><ins>
+ <p class="product-price">$168.00</p>
+ </ins> <del>
+ <p class="product-price">$250.00</p>
+ </del></div>
+ </div>
+ </div></div><div class="owl-item active" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_01.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item bestseller-label">Bestseller</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><span class="product-price">$250.00</span></div>
+ </div>
+ </div></div><div class="owl-item active" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_21.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><span class="product-price">$250.00</span></div>
+ </div>
+ </div></div><div class="owl-item" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_03.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item sale-label">sale</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><ins>
+ <p class="product-price">$168.00</p>
+ </ins> <del>
+ <p class="product-price">$250.00</p>
+ </del></div>
+ </div>
+ </div></div><div class="owl-item" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_04.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item new-label">new</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><span class="product-price">$250.00</span></div>
+ </div>
+ </div></div><div class="owl-item" style="width: 233.6px;"><div class="product product-style-2 equal-elem " style="height: 315.222px;">
+ <div class="product-thumnail">
+ <a href="http://localhost:8000/checkout#" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ <figure><img src="./Home_files/digital_05.jpg" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim">
+ </figure>
+ </a>
+ <div class="group-flash">
+ <span class="flash-item bestseller-label">Bestseller</span>
+ </div>
+ <div class="wrap-btn">
+ <a href="http://localhost:8000/checkout#" class="function-link">quick view</a>
+ </div>
+ </div>
+ <div class="product-info">
+ <a href="http://localhost:8000/checkout#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional
+ Speaker [White]</span></a>
+ <div class="wrap-price"><span class="product-price">$250.00</span></div>
+ </div>
+ </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div><div class="owl-dots disabled"></div></div>
+ </div>
+ <!--End wrap-products-->
+ </div>
+
+ </div>
+ <!--end main content area-->
+ </div>
+ <!--end container-->
+
+ </main>
+ <!--main area-->
+
+<!-- Livewire Component wire-end:cjiZlqdTSmwZlqvGiJ8W -->
+
+
+    <footer id="footer">
+       <div class="wrap-footer-content footer-style-1">
+
+           <div class="wrap-function-info">
+               <div class="container">
+                   <ul>
+                       <li class="fc-info-item">
+                           <i class="fa fa-truck" aria-hidden="true"></i>
+                           <div class="wrap-left-info">
+                               <h4 class="fc-name">Free Shipping</h4>
+                               <p class="fc-desc">Free On Oder Over $99</p>
+                           </div>
+
+                       </li>
+                       <li class="fc-info-item">
+                           <i class="fa fa-recycle" aria-hidden="true"></i>
+                           <div class="wrap-left-info">
+                               <h4 class="fc-name">Guarantee</h4>
+                               <p class="fc-desc">30 Days Money Back</p>
+                           </div>
+
+                       </li>
+                       <li class="fc-info-item">
+                           <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                           <div class="wrap-left-info">
+                               <h4 class="fc-name">Safe Payment</h4>
+                               <p class="fc-desc">Safe your online payment</p>
+                           </div>
+
+                       </li>
+                       <li class="fc-info-item">
+                           <i class="fa fa-life-ring" aria-hidden="true"></i>
+                           <div class="wrap-left-info">
+                               <h4 class="fc-name">Online Suport</h4>
+                               <p class="fc-desc">We Have Support 24/7</p>
+                           </div>
+
+                       </li>
+                   </ul>
+               </div>
+           </div>
+           <!--End function info-->
+
+           <div class="main-footer-content">
+
+               <div class="container">
+
+                   <div class="row">
+
+                       <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                           <div class="wrap-footer-item">
+                               <h3 class="item-header">Contact Details</h3>
+                               <div class="item-content">
+                                   <div class="wrap-contact-detail">
+                                       <ul>
+                                           <li>
+                                               <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                               <p class="contact-txt">45 Grand Central Terminal New York,NY 1017
+                                                   United State USA</p>
+                                           </li>
+                                           <li>
+                                               <i class="fa fa-phone" aria-hidden="true"></i>
+                                               <p class="contact-txt">(+123) 456 789 - (+123) 666 888</p>
+                                           </li>
+                                           <li>
+                                               <i class="fa fa-envelope" aria-hidden="true"></i>
+                                               <p class="contact-txt">Contact@yourcompany.com</p>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+
+                           <div class="wrap-footer-item">
+                               <h3 class="item-header">Hot Line</h3>
+                               <div class="item-content">
+                                   <div class="wrap-hotline-footer">
+                                       <span class="desc">Call Us toll Free</span>
+                                       <b class="phone-number">(+123) 456 789 - (+123) 666 888</b>
+                                   </div>
+                               </div>
+                           </div>
+
+                           <div class="wrap-footer-item footer-item-second">
+                               <h3 class="item-header">Sign up for newsletter</h3>
+                               <div class="item-content">
+                                   <div class="wrap-newletter-footer">
+                                       <form action="http://localhost:8000/checkout#" class="frm-newletter" id="frm-newletter">
+                                           <input type="email" class="input-email" name="email" value="" placeholder="Enter your email address">
+                                           <button class="btn-submit">Subscribe</button>
+                                       </form>
+                                   </div>
+                               </div>
+                           </div>
+
+                       </div>
+
+                       <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12 box-twin-content ">
+                           <div class="row">
+                               <div class="wrap-footer-item twin-item">
+                                   <h3 class="item-header">My Account</h3>
+                                   <div class="item-content">
+                                       <div class="wrap-vertical-nav">
+                                           <ul>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">My
+                                                       Account</a></li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Brands</a>
+                                               </li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Gift
+                                                       Certificates</a></li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Affiliates</a>
+                                               </li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Wish
+                                                       list</a></li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="wrap-footer-item twin-item">
+                                   <h3 class="item-header">Infomation</h3>
+                                   <div class="item-content">
+                                       <div class="wrap-vertical-nav">
+                                           <ul>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Contact
+                                                       Us</a></li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Returns</a>
+                                               </li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Site
+                                                       Map</a></li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Specials</a>
+                                               </li>
+                                               <li class="menu-item"><a href="http://localhost:8000/checkout#" class="link-term">Order
+                                                       History</a></li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+
+                   <div class="row">
+
+                       <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                           <div class="wrap-footer-item">
+                               <h3 class="item-header">We Using Safe Payments:</h3>
+                               <div class="item-content">
+                                   <div class="wrap-list-item wrap-gallery">
+                                       <img src="./Home_files/payment.png" style="max-width: 260px;">
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                           <div class="wrap-footer-item">
+                               <h3 class="item-header">Social network</h3>
+                               <div class="item-content">
+                                   <div class="wrap-list-item social-network">
+                                       <ul>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                           <div class="wrap-footer-item">
+                               <h3 class="item-header">Dowload App</h3>
+                               <div class="item-content">
+                                   <div class="wrap-list-item apps-list">
+                                       <ul>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="our application on apple store">
+                                                   <figure><img src="./Home_files/apple-store.png" alt="apple store" width="128" height="36">
+                                                   </figure>
+                                               </a></li>
+                                           <li><a href="http://localhost:8000/checkout#" class="link-to-item" title="our application on google play store">
+                                                   <figure><img src="./Home_files/google-play-store.png" alt="google play store" width="128" height="36">
+                                                   </figure>
+                                               </a></li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
+
+               <div class="wrap-back-link">
+                   <div class="container">
+                       <div class="back-link-box">
+                           <h3 class="backlink-title">Quick Links</h3>
+                           <div class="back-link-row">
+                               <ul class="list-back-link">
+                                   <li><span class="row-title">Mobiles:</span></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="mobile">Mobiles</a>
+                                   </li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="yphones">YPhones</a>
+                                   </li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Gianee Mobiles GL">Gianee
+                                           Mobiles GL</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Karbonn">Mobiles
+                                           Karbonn</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Viva">Mobiles
+                                           Viva</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Intex">Mobiles
+                                           Intex</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Micrumex">Mobiles
+                                           Micrumex</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Bsus">Mobiles
+                                           Bsus</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Samsyng">Mobiles
+                                           Samsyng</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Mobiles Lenova">Mobiles
+                                           Lenova</a></li>
+                               </ul>
+
+                               <ul class="list-back-link">
+                                   <li><span class="row-title">Tablets:</span></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Plesc YPads">Plesc
+                                           YPads</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Samsyng Tablets">Samsyng
+                                           Tablets</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Qindows Tablets">Qindows
+                                           Tablets</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Calling Tablets">Calling
+                                           Tablets</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Micrumex Tablets">Micrumex
+                                           Tablets</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Lenova Tablets Bsus">Lenova Tablets Bsus</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Tablets iBall">Tablets
+                                           iBall</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Tablets Swipe">Tablets
+                                           Swipe</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Tablets TVs, Audio">Tablets TVs, Audio</a></li>
+                               </ul>
+
+                               <ul class="list-back-link">
+                                   <li><span class="row-title">Fashion:</span></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Sarees Silk">Sarees
+                                           Silk</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="sarees Salwar">sarees
+                                           Salwar</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Suits Lehengas">Suits
+                                           Lehengas</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Biba Jewellery">Biba
+                                           Jewellery</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Rings Earrings">Rings
+                                           Earrings</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Diamond Rings">Diamond
+                                           Rings</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Loose Diamond Shoes">Loose
+                                           Diamond Shoes</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="BootsMen Watches">BootsMen
+                                           Watches</a></li>
+                                   <li><a href="http://localhost:8000/checkout#" class="redirect-back-link" title="Women Watches">Women
+                                           Watches</a></li>
+                               </ul>
+
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+           </div>
+
+           <div class="coppy-right-box">
+               <div class="container">
+                   <div class="coppy-right-item item-left">
+                       <p class="coppy-right-text">Copyright © 2020 Surfside Media. All rights reserved</p>
+                   </div>
+                   <div class="coppy-right-item item-right">
+                       <div class="wrap-nav horizontal-nav">
+                           <ul>
+                               <li class="menu-item"><a href="http://localhost:8000/about-us.html" class="link-term">About us</a></li>
+                               <li class="menu-item"><a href="http://localhost:8000/privacy-policy.html" class="link-term">Privacy
+                                       Policy</a></li>
+                               <li class="menu-item"><a href="http://localhost:8000/terms-conditions.html" class="link-term">Terms &amp;
+                                       Conditions</a></li>
+                               <li class="menu-item"><a href="http://localhost:8000/return-policy.html" class="link-term">Return
+                                       Policy</a></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="clearfix"></div>
+               </div>
+           </div>
+       </div>
+   </footer>
+    <script src="./Home_files/jquery-1.12.4.minb8ff.js.download"></script>
+    <script src="./Home_files/jquery-ui-1.12.4.minb8ff.js.download"></script>
+    <script src="./Home_files/bootstrap.min.js.download"></script>
+    <script src="./Home_files/jquery.flexslider.js.download"></script>
+    <script src="./Home_files/chosen.jquery.min.js.download"></script>
+    <script src="./Home_files/owl.carousel.min.js.download"></script>
+    <script src="./Home_files/jquery.countdown.min.js.download"></script>
+    <script src="./Home_files/jquery.sticky.js.download"></script>
+    <script src="./Home_files/functions.js.download"></script>
+    <!-- Livewire Scripts -->
+
+<script src="./Home_files/livewire.js.download" data-turbo-eval="false" data-turbolinks-eval="false"></script>
+<script data-turbo-eval="false" data-turbolinks-eval="false">
+    if (window.livewire) {
+	    console.warn('Livewire: It looks like Livewire\'s @livewireScripts JavaScript assets have already been loaded. Make sure you aren\'t loading them twice.')
+	}
+
+    window.livewire = new Livewire();
+    window.livewire.devTools(true);
+    window.Livewire = window.livewire;
+    window.livewire_app_url = '';
+    window.livewire_token = 'm8Xc3ukZiZ8mVxfhNs8Up1TzAyFh7FXqVdZu8wtz';
+
+	/* Make sure Livewire loads first. */
+	if (window.Alpine) {
+	    /* Defer showing the warning so it doesn't get buried under downstream errors. */
+	    document.addEventListener("DOMContentLoaded", function () {
+	        setTimeout(function() {
+	            console.warn("Livewire: It looks like AlpineJS has already been loaded. Make sure Livewire\'s scripts are loaded before Alpine.\\n\\n Reference docs for more info: http://laravel-livewire.com/docs/alpine-js")
+	        })
+	    });
+	}
+
+	/* Make Alpine wait until Livewire is finished rendering to do its thing. */
+    window.deferLoadingAlpine = function (callback) {
+        window.addEventListener('livewire:load', function () {
+            callback();
+        });
+    };
+
+    let started = false;
+
+    window.addEventListener('alpine:initializing', function () {
+        if (! started) {
+            window.livewire.start();
+
+            started = true;
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if (! started) {
+            window.livewire.start();
+
+            started = true;
+        }
+    });
+</script>
+
+
+
+</body></html>
